@@ -1,0 +1,77 @@
+@font-face {
+  font-family: TheinhardtReg;
+  src: url(TheinhardtReg.otf);
+}
+@font-face {
+  font-family: TheinhardtLight_alt;
+  src: url(TheinhardtLight_alt.otf);
+}
+
+body {
+  background-color: yellow;
+}
+
+hr.new1 {
+  border: 0.5px solid black;
+}
+
+.title {
+    font-family: TheinhardtReg;
+    margin-top:0;
+    width: 80%;
+
+}
+
+.gif {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.container {
+  font-family: TheinhardtLight_alt;
+  width: 154.5em;
+  height: auto;
+  margin-top: 0.5em;
+
+  /* background: red; */
+}
+
+.year {
+  width: 10em;
+  height: 100vh;
+  display: inline-block;
+  /* background-color: blue; */
+  vertical-align: top;
+  text-align: center;
+}
+
+.year :hover {
+  color: grey;
+  font-style: bold;
+  cursor: pointer;
+}
+
+
+.image {
+  width: auto;
+  height: 43em;
+  display: none;
+  /* background:yellow; */
+  opacity: 0;
+  transition: 1s all;
+  margin-top: 5px;
+  border:1px solid black;
+}
+
+
+
+.year-toggle {
+  /* background: white; */
+}
+
+
+.js-visible {
+  display: block;
+  opacity: 0;
+}
