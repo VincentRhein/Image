@@ -64,6 +64,17 @@ hr.new1 {
   border:1px solid black;
 }
 
+.video {
+  width: auto;
+  height: 23em;
+  display: none;
+  /* background:yellow; */
+  opacity: 0;
+  transition: 1s all;
+  margin-top: 5px;
+  border:1px solid black;
+}
+
 
 
 .year-toggle {
