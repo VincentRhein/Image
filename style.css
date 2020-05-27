@@ -24,8 +24,8 @@ hr.new1 {
 
 .gif {
     position: absolute;
-    top: 0px;
-    right: 50px;
+    top: -50px;
+    right: 20px;
 }
 
 .container {
